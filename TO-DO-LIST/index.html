@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-do list</h2>
+            <div class="back">
+        <div class="row">
+            Task: <input type="text" id="input-box" placeholder="Add Your Task"> 
+            Date: <input type="date" id="date" name="trip-start"
+            value="2018-07-22"
+            min="2010-01-01" max="2050-12-31">
+            <br>
+            <select id="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+            
+        <div id="my-box" >
+            <button class = "my-button" onclick="addTask()">Add</button>
+            
+           
+        </div>
+         <table>
+            <thead>
+              <tr>
+                <th>Task Description</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+
+            <tbody id="task-table-body">
+            </tbody>
+          </table>
+         <div id ="task"> 
+            <div class="actions">
+        </div>
+    </div>
+    </div> 
+        
+        <ul id="list-container">
+          
+        </li>
+          
+        </ul>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
