@@ -1,0 +1,141 @@
+   
+*{
+    margin:0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding:10px;
+    background-color: rgba(255, 157, 173, 0.886);
+    
+
+    
+}
+.todo-app{
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    margin:100px auto 20px;
+    padding:40px 30px 70px;
+    border-radius: 10px;
+    
+}
+.todo-app h2{
+ color:rgb(122, 42, 100);
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px;
+ text-align: center;
+ justify-content: center;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#f3f7ff ;
+    border-radius: 30px;
+    padding-left: px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+   
+    
+}
+
+
+#input-box{
+    /* flex:1; */
+    font-size:15px;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-radius: 8px;
+}
+#date{
+    padding: 10px 20px 10px 20px;
+    /* margin-right: 150px; */
+    height: 30px;
+    font-size:15px;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-radius: 8px;
+}
+.date{
+    background-color: aqua;
+    
+}
+button{
+    border:none;
+    outline:none;
+    padding:10px 60px 20px 25px ;
+    background: #d16154;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 40px;
+    width: 20px;
+    margin-left: 300px;
+    font-family: 'Times New Roman';
+  
+    
+    
+}
+/* .list-container{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding:12px 4px 12px 15px;
+    margin:20px 12px 0px 12px;
+    user-select: none;;
+    position: relative;
+    background-color: #afc86f;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.timer
+{
+    margin-left: auto;
+}
+.my-button{
+
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f4c1c1;
+  }
+  #priority{
+    height: 20px;
+    width: 100px;
+    border-radius: 8px;
+    padding-left: 25px;
+
+  }
+#task{
+    display: flex;
+}
+
+  
